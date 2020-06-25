@@ -1,0 +1,18 @@
+.backgroundForAll {
+  background-color: #FAf5f6;
+
+}
+
+.custom {
+  background-color: red;
+  height: 100vh;
+}
+
+.row {
+  width: 100% !important;
+  height: 100% !important;
+}
+
+.col-2{
+  background-color: #962D37;
+}

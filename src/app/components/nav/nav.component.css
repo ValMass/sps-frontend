@@ -1,0 +1,13 @@
+.icon-sps {
+    background: url('../../../assets/images/logo_sps.png');
+    height: 60px;
+    width: 60px;
+    display: block;
+    /* Other styles here */
+}
+
+.example-fill-remaining-space {
+  /* This fills the remaining space, by using flexbox.
+     Every toolbar row uses a flexbox row layout. */
+  flex: 1 1 auto;
+}

@@ -1,0 +1,10 @@
+{
+    "/sps-timesheet/*": {
+      "target": "http://192.168.20.105/",
+      "secure": true,
+      "pathRewrite": {
+      "^/posts": ""
+    },
+      "changeOrigin": true
+    }
+  }
