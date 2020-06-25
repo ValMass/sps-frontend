@@ -11,7 +11,7 @@ import { UserAnagraphicResolverService } from './services/user-anagraphic-resolv
 
 
 const routes: Routes = [
-  { path: '', component: HomeComponent, canActivate: [AuthGuard], pathMatch: 'full'},
+  { path: '', component: LoginComponent, pathMatch: 'full'},
   { path: 'HomeComponent', component: HomeComponent  },
   { path: 'login', component: LoginComponent },
   { path: 'timesheets', component: TimesheetsComponent, canActivate: [AuthGuard] },
@@ -19,7 +19,7 @@ const routes: Routes = [
   { path: 'adduser', component: CreateUserComponent },
   { path: 'userprofile', component: ProfilepageComponent , resolve: { user: UserAnagraphicResolverService } },
   // otherwise redirect to home
-  { path: '**', redirectTo: '' }
+  { path: '**', redirectTo: 'LoginComponent' }
 ];
 
 @NgModule({
