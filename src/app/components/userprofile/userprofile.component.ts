@@ -29,7 +29,7 @@ export class UserprofileComponent implements OnInit {
         firstName: [data.user.data.name],
         lastName: [data.user.data.surname],
         address: [data.user.data.address],
-        datadinascita: [ this.datePipe.transform(birth,'dd-MM-yyyy')],
+        datadinascita: [ this.datePipe.transform(birth, 'dd-MM-yyyy')],
         email: [data.user.data.birthplace],
         tipologiacontratto: [data.user.data.contracttype],
         distaccatoa: [data.user.data.distaccatoa],

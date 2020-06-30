@@ -7,8 +7,8 @@ export const environment = {
   production: false,
 
   apiUrl: 'http://localhost:8080',
-  //authenticationUrl : 'http://localhost:4000/users/authenticate',
-  //usersUrl: 'http://localhost:4000/users',
+  // authenticationUrl : 'http://localhost:4000/users/authenticate',
+  // usersUrl: 'http://localhost:4000/users',
 
   authenticationUrl : 'http://79.8.14.12:10080/spstimesheet/login.php',
   usersUrl: 'http://79.8.14.12:10080/spstimesheet/users/',
