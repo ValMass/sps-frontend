@@ -6,7 +6,7 @@ const apiUrl = 'https://timesheet.api.spsistemi.net/www/timesheetApi/spstimeshee
 export const environment = {
   production: false,
 
-  apiUrl: 'http://localhost:8080',
+  apiUrl: 'https://timesheet.api.spsistemi.net/www/timesheetApi/spstimesheet/',
   //authenticationUrl : 'http://localhost:4000/users/authenticate',
   //usersUrl: 'http://localhost:4000/users',
 
