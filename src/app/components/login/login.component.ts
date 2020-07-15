@@ -68,7 +68,7 @@ export class LoginComponent implements OnInit {
     this.authenticationService.login(this.f.username.value, this.f.password.value, 'app', 'app', 'password')
       .pipe(first())
       .subscribe(
-        (        data: any) => {
+        ( data: any ) => {
 
           this.authenticationService.retriveUser(this.f.username.value)
             .subscribe( observer );
@@ -78,7 +78,7 @@ export class LoginComponent implements OnInit {
 
           localStorage.setItem('loginresposnseout', JSON.stringify(data));
         },
-        (        error: string) => {
+        ( error: string ) => {
           this.error = error;
           this.loading = false;
         });

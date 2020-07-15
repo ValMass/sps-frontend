@@ -1,4 +1,4 @@
-import { NgModule } from '@angular/core';
+import { NgModule, Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 import { FlatpickrModule } from 'angularx-flatpickr';
@@ -21,4 +21,5 @@ import { TimesheetsComponent } from './timesheets.component';
   declarations: [TimesheetsComponent],
   exports: [TimesheetsComponent]
 })
+
 export class TimesheetsModule {}

@@ -47,9 +47,9 @@ export class AuthenticationService {
     .pipe(map(user => {
       // store user details and jwt token in local storage to keep user logged in between page refreshes
       console.log(`loginresposnse: ${JSON.stringify(user)}`);
-      //console.log("status: " + JSON.stringify(userResponse.status));
-      //console.log("user: " + JSON.stringify(userResponse.data));
-      //console.log("role: " + userResponse.data.role);
+      console.log("status: " + JSON.stringify(user.status));
+      console.log("user: " + JSON.stringify(user.data));
+      console.log("role: " + user.data.role);
       return user;
     }));
   }
